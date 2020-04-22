@@ -1,14 +1,14 @@
- #include <iostream>
-using namespace std;
+#include <iostream> //includes file
 
-int main() {
-  cout << "Name is Elisha!";
+using namespace std; //includes library
+
+int main()
+{
+  cout << "Hello world!" <<endl;
+  cout << "This is the end\n"<< endl;
+  cout << "This is the first line\n";
+  cout << "This is the last line" <<endl;
+
+  cout << "Boy \n I \n love \n bacon \n";
   return 0;
-} 
-
-
-int try() {
-  std::cout << "Hello World!";
-  return 0;
-} 
-
+}
