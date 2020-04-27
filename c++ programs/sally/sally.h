@@ -7,7 +7,7 @@ using namespace std;
 class sally
 {
     public:
-        sally(int name);
+        sally(int a, int b);
         ~sally();
 
         int jolly(int name);
@@ -15,6 +15,13 @@ class sally
         void my_name(string name);
 
         void printShiz() const;
+
+        void print();
+
+
+    private:
+        int regVar;
+        const int constVar;
     
 };
 

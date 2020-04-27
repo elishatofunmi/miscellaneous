@@ -4,8 +4,16 @@
 using namespace std;
 
 
-sally::sally(int name){
-    cout<< "your name is: "<<name<<endl;
+sally::sally(int a, int b)
+: regVar(a), constVar(b)
+{
+
+}
+
+void sally::print(){
+
+    cout<< "reg var is now: "<<regVar<<endl;
+    cout<<"const var is now: "<<constVar<<endl;
 }
 
 sally::~sally(){
