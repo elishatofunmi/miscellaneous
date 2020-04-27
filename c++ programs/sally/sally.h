@@ -8,10 +8,13 @@ class sally
 {
     public:
         sally(int name);
+        ~sally();
 
         int jolly(int name);
 
         void my_name(string name);
+
+        void printShiz() const;
     
 };
 
