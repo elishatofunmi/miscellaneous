@@ -8,6 +8,14 @@ class sally
 {
     public:
         sally(int a, int b);
+
+        //sally constructor 2
+        //sally(int me);
+
+        //sally operator+(sally);
+
+
+        //sally deconstructors
         ~sally();
 
         int jolly(int name);
@@ -18,6 +26,7 @@ class sally
 
         void print();
 
+        
 
     private:
         int regVar;

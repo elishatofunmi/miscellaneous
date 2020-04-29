@@ -10,6 +10,19 @@ sally::sally(int a, int b)
 
 }
 
+sally::sally(int me){
+    int ab;
+    ab = me;
+};
+
+//sally sally::operator+(sally aso){
+ //   sally brandNew;
+ //   brandNew.ab = ab+ aso.ab;
+  //  return (brandNew);
+//};
+
+
+
 void sally::print(){
 
     cout<< "reg var is now: "<<regVar<<endl;
