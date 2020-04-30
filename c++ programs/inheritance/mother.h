@@ -5,10 +5,16 @@
 class mother{
     public:
         mother();
-    
+        ~mother();
+        void sayName();
+        int publicVariable;
+
+
+    protected:
+        int protectedVariable;
 
     private:
-
+        int privateValue;
 
 
 };

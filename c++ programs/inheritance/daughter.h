@@ -1,11 +1,14 @@
 #ifndef DAUGHTER_H
 #define DAUGHTER_H
+#include "mother.h"
 
 
-class daughter{
+class daughter: public mother
+{
     public:
+        daughter();
+        ~daughter();
 
-    private:
 
 
 };
