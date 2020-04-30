@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 //create class enemy
@@ -23,8 +22,6 @@ class Ninja: public Enemy{
 
 };
 
-
-
 //create class Monster
 class Monster: public Enemy{
     public:
@@ -32,8 +29,6 @@ class Monster: public Enemy{
         {cout<<"Monster chop's power: -"<<attackPower<<endl;}
 
 };
-
-
 
 int main(){
     Ninja n;
