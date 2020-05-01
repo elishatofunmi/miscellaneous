@@ -32,6 +32,7 @@ int main(){
     //loop
     for (int x=0; x<alMe.length();x++){
         cout<<alMe.at(x);
+    
     }
     cout <<endl;
 
